@@ -8,15 +8,16 @@ body {
   color: #eef2ff;
 }
 
-:root {
-  --bg: #0b1020;
-  --panel: rgba(255,255,255,0.06);
-  --panel-2: rgba(255,255,255,0.08);
-  --border: rgba(255,255,255,0.12);
-  --muted: rgba(238,242,255,0.72);
-  --accent: #7c3aed;
-  --accent-2: #22c55e;
-  --shadow: 0 12px 40px rgba(0,0,0,0.35);
+:root{
+  --bg: #0a2342;              /* Hampton deep blue */
+  --panel: rgba(255,255,255,0.08);
+  --panel-2: rgba(255,255,255,0.12);
+  --border: rgba(255,255,255,0.18);
+  --muted: rgba(255,255,255,0.78);
+
+  --accent: #003a8f;          /* Hampton royal blue */
+  --accent-2: #ffffff;       /* white accent */
+  --shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 
 .container {
@@ -132,11 +133,11 @@ body {
 .full { width: 100%; }
 
 /* Hero */
-.hero {
+.hero{
   padding: 60px 0 22px;
   background:
-    radial-gradient(900px 380px at 20% 0%, rgba(124,58,237,0.25), transparent 60%),
-    radial-gradient(900px 380px at 80% 10%, rgba(14,165,233,0.22), transparent 60%);
+    radial-gradient(900px 380px at 20% 0%, rgba(0,58,143,0.35), transparent 60%),
+    radial-gradient(900px 380px at 80% 10%, rgba(255,255,255,0.12), transparent 60%);
 }
 
 .hero-grid {
