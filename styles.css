@@ -54,7 +54,7 @@ body {
 }
 
 .brand {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 10px;
   font-weight: 800;
@@ -64,13 +64,10 @@ body {
 }
 
 .logo {
+  height: 40px;      /* change to 32px or 36px if needed */
   width: auto;
-  height: auto;
-  display: grid;
-  place-items: center;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--accent), #0ea5e9);
-  box-shadow: var(--shadow);
+  display: block;    /* removes weird inline spacing */
+  object-fit: contain;
 }
 
 .nav-menu {
